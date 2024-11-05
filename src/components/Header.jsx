@@ -24,7 +24,7 @@ const Header = ({ tab, setTab }) => {
       <Toolbar sx={{ display: 'flex', margin: '-5px', marginLeft: '-25px' }}>
         <IconButton onClick={Home} sx={{ padding: '5px' ,marginLeft:'5px'}}>
 
-          <FacebookRoundedIcon color='primary' sx={{ fontSize: '40px', textAlign: 'left'}}></FacebookRoundedIcon>
+          <Typography color='primary' sx={{ fontSize: '40px', textAlign: 'left'}}>JEV</Typography>
         </IconButton>
         <Box sx={{ display: portrait ? 'none' : 'flex', position: 'relative', borderRadius: '20px',  marginLeft: 0, width: '20%' }}>
 

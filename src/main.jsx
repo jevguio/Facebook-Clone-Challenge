@@ -9,11 +9,11 @@ import '../src/index.css';
 import App from './App.jsx';
 import ThemeContextProvider from './context/ThemeContext';
 import {
-  createHashRouter,
+  createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 import { CssBaseline } from '@mui/material';
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
